@@ -1,5 +1,16 @@
+# Build artifacts
 *.exe
 *.obj
 *.pdb
 *.ilk
+
+# Visual Studio
+.vs/
+Debug/
+Release/
+
+# VS Code
 .vscode/
+
+# OS junk
+desktop.ini
