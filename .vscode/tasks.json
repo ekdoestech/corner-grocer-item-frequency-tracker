@@ -4,13 +4,15 @@
     {
       "label": "Build CornerGrocer",
       "type": "shell",
-      "command": "cl",
+      "command": "cmd",
       "args": [
+        "/c",
+        "if not exist build mkdir build && cl",
         "/Zi",
         "/EHsc",
         "src/main.cpp",
         "src/GroceryTracker.cpp",
-        "/Fe:CornerGrocer.exe"
+        "/Fe:build\\CornerGrocer.exe"
       ],
       "group": {
         "kind": "build",

@@ -1,16 +1,36 @@
+# =========================
 # Build artifacts
+# =========================
 *.exe
 *.obj
 *.pdb
 *.ilk
 
+# =========================
 # Visual Studio
+# =========================
 .vs/
 Debug/
 Release/
 
-# VS Code
-.vscode/
+# =========================
+# VS Code (keep run/build configs)
+# =========================
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
 
+# =========================
+# Build output
+# =========================
+build/
+
+# =========================
+# Generated files
+# =========================
+output/frequency.dat
+
+# =========================
 # OS junk
+# =========================
 desktop.ini
