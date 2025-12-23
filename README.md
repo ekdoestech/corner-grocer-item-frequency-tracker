@@ -4,7 +4,7 @@ A C++ data analysis application that transforms grocery transaction data into fr
 
 ![Language](https://img.shields.io/badge/language-C++17-blue.svg)
 ![Focus](https://img.shields.io/badge/focus-Data%20Analysis-informational)
-![Course](https://img.shields.io/badge/course-CS--210-blueviolet)
+![Type](https://img.shields.io/badge/type-Data%20Processing-informational)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Visual%20Studio-blueviolet)
 
@@ -26,7 +26,13 @@ This project demonstrates foundational and intermediate C++ concepts, including 
 
 ---
 
-## Project Highlights
+## Use Case
+
+Retail teams can use this tool to quickly identify high-demand and low-demand products, supporting decisions around inventory planning, shelf allocation, and restocking priorities.
+
+---
+
+## Key Capabilities
 
 - Modular C++ application using STL containers to analyze transactional data
 - Automated data backup and case-insensitive item lookup
@@ -37,7 +43,7 @@ This project demonstrates foundational and intermediate C++ concepts, including 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Project Highlights](#project-highlights)
+- [Key Capabilities](#key-capabilities)
 - [Technologies Used](#technologies-used)
 - [Program Design](#program-design)
 - [How the Program Works](#how-the-program-works)
@@ -46,8 +52,7 @@ This project demonstrates foundational and intermediate C++ concepts, including 
 - [How to Run](#how-to-run)
 - [Example Output](#example-output)
 - [Screenshots](#screenshots)
-- [Learning Outcomes](#learning-outcomes)
-- [Project Reflection (CS 210 – Module Eight)](#project-reflection-cs-210--module-eight)
+- [Engineering Takeaways](#engineering-takeaways)
 - [License](#license)
 - [Contact](#contact)
 
@@ -176,56 +181,28 @@ Inventory Health Score: 70% (Moderate)
 
 ---
 
-## Learning Outcomes
+## Engineering Takeaways
 
-This project demonstrates:
+This project demonstrates practical experience in:
 
-- Professional C++ class design
-- Safe and defensive file handling
-- Effective use of standard library containers
-- Clean separation of responsibilities
-- Translating raw data into actionable business insights
-
----
-
-## Project Reflection (CS 210 – Module Eight)
-
-### Project Summary and Problem Solved
-
-This project focused on building a C++ application that analyzes grocery transaction data to determine item purchase frequencies. The program solves the problem of transforming raw transaction logs into meaningful, structured information that can support decisions related to inventory management and store layout optimization.
-
-### What I Did Particularly Well
-
-I designed a modular solution using a dedicated `GroceryTracker` class and STL containers to efficiently store and analyze data. I also implemented case-insensitive item lookups, automated data backup, and clear user feedback, prioritizing usability, readability, and defensive programming practices.
-
-### Opportunities for Improvement
-
-If expanded further, this project could benefit from configurable file paths, enhanced input validation, and automated unit testing. These improvements would increase flexibility, security, and long-term maintainability in a production environment.
-
-### Challenges and How I Overcame Them
-
-One of the most challenging aspects of this project was managing file input across different execution environments. I overcame this by learning how working directories affect relative file paths and by organizing the project to separate source code, input data, and generated output. Course materials, C++ documentation, and iterative testing were key resources in resolving these challenges.
-
-### Transferable Skills
-
-This project strengthened skills that are directly transferable to future coursework and professional development, including object-oriented design, file I/O handling, debugging, and translating business requirements into functional software solutions.
-
-### Maintainability, Readability, and Adaptability
-
-Maintainability was addressed through clear class responsibilities, consistent naming conventions, and inline documentation. The organized file structure and modular design make the program easy to extend, adapt, or refactor as requirements evolve.
+- Designing modular C++ applications with clear class responsibilities
+- Safely handling file input/output and runtime errors
+- Leveraging STL containers for efficient data processing
+- Normalizing and validating user input for reliability
+- Translating raw transactional data into actionable operational insights
 
 ---
 
 ## License
 
-This project is provided for educational and portfolio use and demonstrates applied C++ programming concepts aligned with industry standards.
+This project is released under the MIT License and is available for review, reuse, and adaptation.
 
 ---
 
 ## Contact
 
 **Erica Kinch**  
-Computer Science Student | Data & Software Development  
+Computer Science | Data & Software Development
 
 🔗 **GitHub:** [github.com/ekdoestech](https://github.com/ekdoestech)  
 🔗 **LinkedIn:** [linkedin.com/in/erica-kinch](https://www.linkedin.com/in/erica-kinch/)  
