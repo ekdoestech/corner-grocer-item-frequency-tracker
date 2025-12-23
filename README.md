@@ -1,12 +1,19 @@
 # Corner Grocer Item Frequency Tracker
 
-A C++ data analysis application that transforms grocery transaction data into frequency summaries and inventory insights.
+## At a Glance
+
+- C++ data processing application for retail transaction analysis
+- Uses STL containers and clean OOP design
+- Generates frequency reports, histograms, and inventory signals
+- Emphasizes maintainability, clarity, and real-world applicability
 
 ![Language](https://img.shields.io/badge/language-C++17-blue.svg)
 ![Focus](https://img.shields.io/badge/focus-Data%20Analysis-informational)
 ![Type](https://img.shields.io/badge/type-Data%20Processing-informational)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Visual%20Studio-blueviolet)
+
+A C++ data analysis application that transforms grocery transaction data into frequency summaries and inventory insights. Built with an emphasis on clarity, maintainability, and real-world use cases.
 
 ---
 
@@ -22,7 +29,7 @@ The program allows users to:
 - Review inventory health and restock recommendations  
 - Automatically generate a backup data file  
 
-This project demonstrates foundational and intermediate C++ concepts, including object-oriented design, file I/O, standard library containers, and defensive programming.
+This project emphasizes clean C++ architecture, efficient data processing, and translating raw input into meaningful operational insights.
 
 ---
 
